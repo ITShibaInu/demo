@@ -9,7 +9,7 @@ let port = 3001
 var client  = connect();
 
 function connect() {
-    let client = mqtt.connect("mqtt://localhost:8884", {
+    let client = mqtt.connect("mqtt://localhost:8883", {
         will : {
             topic: `${config.mqttDeviceId}/info/status`,
             payload : 'ERROR',
