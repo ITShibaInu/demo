@@ -1,0 +1,13 @@
+{
+    "aedesOpt": {
+        "concurrency": 100,
+        "heartbeatInterval": 60000,
+        "connectTimeout": 30000
+    },
+    "persistence": {
+        "url": "mongodb://localhost:27017/mqtt_persistence",
+        "port": 27017,
+        "host": "localhost",
+        "database": "mqtt_persistence"
+    }
+}
